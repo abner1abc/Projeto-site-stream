@@ -1,0 +1,76 @@
+/*revisão de tudo*/
+
+body{
+	background-color:#000000;
+	margin:0;
+	padding:0;
+}
+
+header{
+	color:#ffa500;
+	background-color:#2c2c2c;
+	font-size:25px;
+	font-family:arial;
+	height:150px;
+	margin:10px;
+	padding:0;
+}
+
+p{
+	color:#ffa500;
+	font-family:arial;
+}
+
+footer{
+	color:#ffa500;
+	background-color:#2c2c2c;
+	font-size:25px;
+	font-family:arial;
+	text-align:center;
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+img{
+	width:200px; 
+	height:0;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/*DIVS*/ /* altura = height e largura = width */
+
+#div_esquerda{
+	color:#ffa500;
+	background-color:#2c2c2c;
+	font-size:25px;
+	font-family:arial;
+	min-height:200px;
+	width:1000px;
+	float:left;
+	margin:10px;
+	padding:0;
+}
+
+#div_direita{
+	color:#ffa500;
+	background-color:#2c2c2c;
+	font-size:25px;
+	font-family:arial;
+	min-height:200px;
+	width:560px;
+	float:right;
+	margin:10px;
+	padding:0;
+}
+
+/*CLASS*/
+
+.container{
+	width:960px;
+	margin:0 auto;
+}
